@@ -3,34 +3,27 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-         Baluk baluk = new Baluk();
-         baluk.setName("Bersh");
-         baluk.setLength(40);
-         baluk.setWeight(1.4);
-         baluk.methodGet();
+         Laptop laptop = new Laptop();
+         laptop.setName("Apple ");
+         laptop.setPamyat(512);
+         laptop.setColour(" белый ");
+         laptop.setRAM(16);
 
-         Myshyk myshyk = new Myshyk();
-         myshyk.setName("Tom");
-         myshyk.setAge(3);
-         myshyk.setTusu("kara-ala");
-         myshyk.methodGet();
+         Laptop laptop2 = new Laptop();
+         laptop2.setName(" Lenovo ");
+         laptop2.setPamyat(512);
+         laptop2.setColour(" Серый ");
+         laptop2.setRAM(16);
+         Laptop [] laptops = {laptop,laptop2};
 
-         Dog dog = new Dog();
-         dog.setName("Reks");
-         dog.setAge(20);
-         dog.setColour("Kara");
-         dog.setParoda("Apcherka");
-         dog.methodGet();
-
-         Popugai popugai = new Popugai();
-         popugai.setName("Amazony");
-         popugai.setAge(50);
-         popugai.setColour("ak");
-         popugai.setWeight(400);
-         popugai.methodGet();
-
+         Student st = new Student();
+         st.setName(" Arlen  ");
+         st.setAge(20);
+         st.setGroup(" Java 5 ");
+         st.setLaptops(laptops);
+         st.gitLaptops();
+        // st.study();
 
 
     }
-    }
-
+}
