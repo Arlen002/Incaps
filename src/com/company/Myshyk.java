@@ -25,8 +25,13 @@ public class Myshyk {
     public int getAge() {
         return age;
     }
-
     public void setAge(int age) {
         this.age = age;
     }
+    void methodGet(){
+        System.out.println("Аты: "+getName()+", жашы "+
+        getAge()+", тусу "+
+        getTusu());
+    }
+
 }

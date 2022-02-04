@@ -38,4 +38,10 @@ public class Dog {
     public void setParoda(String paroda) {
         this.paroda = paroda;
     }
+    void methodGet(){
+        System.out.println( "Aты: "+getName()+", жашы "+
+        getAge()+", тусу "+
+        getColour()+", пародасы "+
+       getParoda());
+    }
 }
